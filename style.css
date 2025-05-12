@@ -1,0 +1,55 @@
+/* Estilo para o body */
+body {
+    display: flex;
+    flex-direction: column; /* Organiza os elementos verticalmente */
+    justify-content: center; /* Centraliza no eixo vertical */
+    align-items: center; /* Centraliza no eixo horizontal */
+    height: 150vh; /* Faz o body ocupar 100% da altura da tela */
+    margin: 0; /* Remove a margem padrão */
+    text-align: center; /* Centraliza os textos */
+    background-color: rgb(255, 134, 195); /* Cor de fundo opcional */
+}
+
+/* Estilo para a div que contém a imagem */
+.imagem-container {
+    text-align: center; /* Garante que a imagem fique centralizada */
+}
+
+/* Estilo para as imagens */
+img {
+    max-width: 80%; /* A imagem ocupará no máximo 80% da largura da tela */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Estilo para o título h1 */
+h1 {
+    color: rgb(241, 180, 12);
+    margin-top: 20px; /* Espaço superior */
+    font-size: 32px; /* Define o tamanho da fonte */
+}
+
+/* Estilo para o título h2 */
+h2 {
+    color: rgb(223, 23, 9);
+    margin-top: 20px; /* Espaço superior */
+    font-size: 32px; /* Define o tamanho da fonte */
+}
+
+/* Estilo para o subtítulo h3 */
+h3 {
+    color: rgba(241, 229, 229, 0.966);
+    margin-top: 10px; /* Espaço superior */
+    font-size: 24px; /* Define o tamanho da fonte */ 
+}
+      
+
+/* Estilo para o subtítulo h4 */
+h4 {
+    color: rgba(214, 27, 158, 0.966);
+    margin-top: 10px; /* Espaço superior */
+    font-size: 24px; /* Define o tamanho da fonte */ 
+}
+body {
+    background-image: url('fundo3.jpeg');
+    background-size: cover;
+  }
